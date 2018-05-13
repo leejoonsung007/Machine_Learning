@@ -1,14 +1,22 @@
-# Machine_Learning
-# Building a superlearner classifier in Python.
-The frame of a superleaner classifier is as below:
-![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/1520730348666.jpg)
+# Improve and Evaluate the performance of basic machine learning, deep learning and deep Q learning performance on Lunar lander.
 
-Data is Fashion-mnist which is from Zalando
+### Introduction:
+player_state.pkl - Machine Learning Model
+player_images_2.mod,  - Deep Learning Model
+dqn_LunarLander-v2_weights.h5f - Reinforcement Learning Model
 
-some explanation for the data usage
-![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/1521802938037.jpg)
-![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/1521802958643.jpg)
-![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/1521802973537.jpg)
+These models are generated  from assignments.ipynb.
+And then apply them to lunar lander to check their performance.
+
+To test their performances, run 
+lunar_lander_ml_images _player.py
+lunar_lander_ml_states_player.py
+lunar_lander_rl_player.py
+
+### sceenshoot
+![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/LunarLander/pic/lunar_lander1.png)
+![image](https://github.com/leejoonsung007/Machine_Learning/blob/master/LunarLander/pic/lunar_lander2.png)
+
 
 
 
